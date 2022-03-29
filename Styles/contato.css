@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-top: 105px;
+}
+form{
+    background: url(/assets/ilustra-contato.png) 100% 50% no-repeat;
+    
+}
+fieldset {
+    border: none;
+}
+legend {
+    color: #ff4081;
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+}
+form div{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+form input[input=text], form input[type=email], form textarea{
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    padding: 10px 21px;
+}
+form input{
+    background: #ff4081;
+    color: white;
+    padding: 10px 21px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+
+}
