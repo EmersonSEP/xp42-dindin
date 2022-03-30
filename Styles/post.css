@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 111px;
+
+}
+h1{
+    font-family: 'Ubuntu';
+    font-size: 50px;
+    font-weight: medium;
+    line-height: 57px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    color: #ff4081;
+    text-align: center;
+}
+section p{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #9d9d9d;
+    font-weight: 300;
+    margin:10px auto 74px auto;
+}
+article{
+    display: flex;
+    flex-direction: column;
+
+}
+.post-grande{
+    display: flex;
+    flex-direction: column;
+    max-width: 1032px;
+    height: 465px;
+    background:  #c4c4c4;
+    align-items: center;
+    text-align: center;
+    margin: 0 204px 64px 204px;
+
+}
+.texto-part1{
+
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 18px;
+    align-items: center;
+    line-height: 21px;
+    margin-bottom: 111px;
+    margin: 0 204px 111px 204px;
+}
+
+.texto-part1 > p {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #009688;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h4{ font-family: 'Ubuntu';
+    font-size: 50px;
+    font-weight: medium;
+    line-height: 57px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    color: #ff4081;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.section-1 {
+    display: flex;
+  }
+  
+
+ .art2{
+    background: #F6F6F6;
+    max-width: 1440px;
+    padding-bottom: 134px;
+    padding-top: 79px;
+
+ }
+article ul{
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+   text-align: center;
+ }
+ article ul li div{
+  font-size: 25px;
+  color: #ff4081;
+  font-weight: bold;
+  text-align: center;
+  line-height: 29px;
+  padding: 45px 0 0 0;
+ }
+ ul li p{
+   font-size: 17px;
+   max-width: 293px;
+   height: 68px;
+   margin: 23px;
+   margin-bottom: 31px;
+
+ }
+ article ul li a{
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 23px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   border: 1px solid;
+   border-radius: 62px;
+   padding: 15px 50px;
+   background: #FF4081;
+   max-width: 233px;
+
+
+ }
+  
+  .investimento img{
+     width: 288px;
+     height: 270px;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     margin-top: 109px;
+   }
+   .poupando img{
+     width: 238px;
+     height: 270px;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     margin-top: 109px;
+   }
+   .independencia img{
+     width: 187px;
+     height: 270px;
+     align-items: center;
+     justify-content: center;
+     margin: 0;
+     margin-top: 109px;
+   }

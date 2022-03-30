@@ -10,15 +10,10 @@ html {
     font-weight: normal;
   }
   
-  ol, ul {
+  ol, ul, li {
     list-style: none;
   }
   
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
 main{
     box-sizing: border-box;
 
@@ -76,7 +71,7 @@ div > img{
   
  }
 
-article{
+ .art{
     background: #F6F6F6;
     height: auto;
     padding-bottom: 134px;
@@ -104,7 +99,7 @@ article ul{
    margin-bottom: 31px;
 
  }
- article  ul  li  a{
+ article ul li a{
    font-size: 20px;
    font-weight: 400;
    line-height: 23px;
@@ -152,7 +147,7 @@ article ul{
 .section-meio {
   margin: 0 auto;
   padding: 119px 0 155px 0;
-  font-family: Nunito, sans-serif;
+  font-family: 'Nunito', sans-serif;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -198,8 +193,6 @@ article ul{
   flex-wrap: wrap;
   align-items: center;
   padding-left: 128px;
-
-
 
 }
 .titulo-footer{
@@ -280,20 +273,5 @@ div .bot-footer a{
 
 
 
-/*
-section >div > h3{
-   font-family: 'Nunito', sans-serif;
-   font-size: 37px;
-   font-weight: bold;
-   text-transform: uppercase;
-   color: #009688;
-   line-height: 51px;
-   text-align: center;
-   display: flex;
-   margin: 119px 0 0 128px ;
 
-
-
-
- }
  

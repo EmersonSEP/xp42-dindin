@@ -1,41 +1,84 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
 }
 
 main {
     padding-top: 105px;
-}
-form{
-    background: url(/assets/ilustra-contato.png) 100% 50% no-repeat;
-    
-}
-fieldset {
-    border: none;
-}
-legend {
-    color: #ff4081;
-    font-size: 40px;
-    font-weight: 700;
-    float: left;
-}
-form div{
-    box-sizing: border-box;
-    width: 100%;
-}
-
-form input[input=text], form input[type=email], form textarea{
-    width: 100%;
-    border: 1px solid #686868;
-    border-radius: 7px;
-    padding: 10px 21px;
-}
-form input{
-    background: #ff4081;
-    color: white;
-    padding: 10px 21px;
-    border: none;
-    border-radius: 50px;
-    font-size: 16px;
-
-}
+ }
+ 
+ form {
+     background: url('/assets/ilustra-contato.png') 80% 50% no-repeat;
+     display: block;
+     width: 100%;
+     box-sizing: border-box;
+     padding: 0 840px 0 139px;
+ }
+ 
+ fieldset {
+     border: none;
+ }
+ 
+ legend {
+     color: #FF4081;
+     font-size: 40px;
+     font-weight: 700;
+     float: left;
+     margin: 0 0 44px;
+ }
+ 
+ form div {
+     clear: both;
+     box-sizing: border-box;
+     width: 100%;
+     margin: 0 0 15px;
+ }
+ 
+ form input[type=text], form input[type=email], form textarea {
+     width: 100%;
+     border: 1px solid #686868;
+     outline: 0;
+     border-radius: 7px;
+     padding: 10px 21px;
+     box-sizing: border-box;
+ }
+ 
+ form input[type=submit] {
+     background: #FF4081;
+     color: white;
+     padding: 5px 31px;
+     border: none;
+     border-radius: 50px;
+     font-size: 16px;
+     font-weight: 800;
+     font-family: 'Nunito', sans-serif;
+ }
+ 
+ @media only screen and (max-width: 900px) {
+ 
+     form {
+         padding: 20px;
+         background-image: none;
+     }
+ 
+ }
+ 
+ @media only screen and (max-width: 481px) {
+ 
+     main {
+         padding-top: 50px;
+     }
+ 
+ }

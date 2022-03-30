@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+
+    font-weight: normal;
+}
+img {
+  max-width: 90%;
+  height: auto;
+}
+main{
+    padding: 198px 0px 411px 128px;
+    width: 100%;
+}
+article{
+    display: flex;
+}
+h1{
+    font-size: 60px;
+    color: #ff4081;
+    font-weight: 700;
+    line-height: 69px;
+}
+section p{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 95px;
+}
+
+.container-1, .container-2, .container-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 68px;
+}
+
+.post-1 h2, .post-2 h2,.post-3 h2 {
+    font-size: 35px;
+    color: #ff4081;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 37px;
+}
+
+.post-1 .texto, .post-2 .texto, .post-3 .texto {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    width: 724px;
+    height: 105px;
+    margin-bottom: 53px;
+}
+
+.post-1 .botao, .post-2 .botao, .post-3 .botao {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    background: #419488;
+    border-radius: 62px;
+    width: 233px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+}
+ .regua {
+     display:flex; 
+     padding:0; 
+     margin: 10px 0; 
+     width:100%; 
+     height:5px; 
+     background-color:#c4c4c4
+    }
+
+@media screen and (max-width: 1026px){
+section, .container-1, .container-2, .container-3, .imagem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
+}
+article{
+    width: 600px;
+    padding: 0px;
+}
+.post-1, .post-2, .post-3, .botao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+section, h1, p{
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 825px) {
+    section, h1, p{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    article{
+        padding: 0px;
+        margin: 0;
+    }
+    .post-1, .post-2, .post-3, .botao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    @media screen and (max-width: 430px) {
+        section, h1, p{
+            width: 100%;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+        .post-1, .texto{
+            width: 350px;
+        }
+/*
+    .container-1, .container-2, .container-3, .imagem{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        border: 0;
+        width: 100%;
+       
+ 
+    }
+    .post-1, .post-2, .post-3, .botao{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    
+    }

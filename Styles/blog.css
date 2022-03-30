@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  main{
+
+  }
+  section{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+  }
+  section div{
+    flex-wrap: wrap;
+  }
+
+  section div h1 {
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #009688;
+    line-height: 54px;
+    margin: 122px 125px 40px 239px;
+    justify-content: space-evenly;
+    max-width: 512px;
+  }
+ section div p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    max-width: 461px;
+    margin: 0 0 162px 239px;
+}
+img{
+    display: flex
+
+
+}
+article{
+    display: flex;
+}
+  .blog-posts{
+      display: flex;
+      flex-wrap: wrap;
+      background: #e5e5e5;
+  }
+
+
+.blog-posts ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 171px;
+
+}
+
+div .caixa{
+    width: 518px;
+    height: 259px;
+    background: #c4c4c4;
+    margin: 109px 60px 19px 0px;
+}
+li h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #ff4081;
+    margin: 0 0 19px 0px;
+}
+li > p{
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 0 19px 0px;
+    width: 512px;
+
+}
