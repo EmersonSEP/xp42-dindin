@@ -118,7 +118,7 @@ article ul{
 }
 
 .investimento img{
-   width: 288px;
+   max-width: 288px;
    height: 270px;
    align-items: center;
    justify-content: center;
@@ -237,10 +237,10 @@ article ul{
   margin: 0;
 }
 .section-footer .span-footer{
-  font-size: 27px;
+  font-size: 20px;
   color: #009688;
   font-weight: 700;
-  width: 319px;
+  max-width: 319px;
   height: 30px;
   display: flex;
   margin: 0;

@@ -375,7 +375,8 @@ footer nav li{
             width: auto;
         }
         .section-meio .coment .texto{ 
-            width: auto;
+            width: 100%;
+            font-size: 15px;
         }
          .caixa{
              width: 230px;
