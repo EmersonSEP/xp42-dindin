@@ -41,12 +41,11 @@ html {
     margin: 0 0 162px 239px;
 }
 img{
-    display: flex
-
-
+    display: flex;
 }
 article{
     display: flex;
+
 }
   .blog-posts{
       display: flex;
@@ -59,6 +58,7 @@ article{
     display: flex;
     flex-wrap: wrap;
     margin-left: 171px;
+    justify-content: center;
 
 }
 
@@ -66,19 +66,63 @@ div .caixa{
     width: 518px;
     height: 259px;
     background: #c4c4c4;
-    margin: 109px 60px 19px 0px;
+    margin: 100px 110px 19px 0px;
 }
-li h3{
+li h3 a{
     font-size: 30px;
     font-weight: 500;
     line-height: 34px;
     color: #ff4081;
     margin: 0 0 19px 0px;
+    text-decoration: none;
 }
 li > p{
     font-size: 17px;
     font-weight: 300;
-    margin: 0 0 19px 0px;
-    width: 512px;
+    margin: 0 0 0 0px;
+    max-width: 516px;
+}
+.blog-posts ul{
+  padding: 9px 0 170px 0;
+}
+@media screen and (max-width: 1020px){
+  section > img{
+    display: none;
+  }
+  .blog-posts, div .caixa, p, li{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    width: auto;
+  }
+  main section div h1{
+    text-align: center;
+    padding-top: 50px;
+    margin: auto;
+  }
+ section div p{
+   text-align: center;
+   width: auto;
+   margin: 50px;
+   max-width: none;
+ }
+ article{
+  flex-direction: column;
+ }
+.blog-posts ul{
+  flex-direction: column;
+  margin: 0;
+}
+@media screen and (max-width: 520px){
+li h3 a{
+  display: flex;
+
+}
+ul li a{
+  font-size: 55px;
+}
 
 }

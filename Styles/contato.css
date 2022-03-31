@@ -66,6 +66,11 @@ main {
      font-family: 'Nunito', sans-serif;
  }
  
+ @media only screen and (max-width: 1030px){
+    form{
+        background: url('/assets/ilustra-contato.png') 70% 20% no-repeat;
+
+ }
  @media only screen and (max-width: 900px) {
  
      form {
