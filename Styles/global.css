@@ -145,6 +145,15 @@ footer nav li{
     list-style: none;
 }
 
+.anexo a:hover{
+    background: white;
+    color: #419488;
+}
+
+nav ul a:hover{
+    background: white;
+    color: #419488;
+}
 @media screen and (max-width: 1280px) {
     .container-head, h2, a{
         flex-direction: column;
@@ -397,4 +406,3 @@ footer nav li{
             width: 270px;
             align-items: center;
     }
-

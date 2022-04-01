@@ -168,6 +168,11 @@ article ul{
      margin-top: 109px;
    }
 
+   article ul li a:hover{
+    background: white;
+    color: #FF4081;
+  }
+
    @media screen and (max-width: 768px){
      .post-grande, .texto-part1{
        margin: 0 100px 50px 100px;

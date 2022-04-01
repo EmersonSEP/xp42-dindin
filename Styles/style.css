@@ -270,7 +270,21 @@ div .bot-footer a{
   margin: 101px auto 0;
   text-align: center;
 }
+.bot-footer :hover{
+  background: #ff4081;
+  color: white;
 
+}
+article ul li a:hover{
+  background: white;
+  color: #FF4081;
+}
+
+div > a:hover{
+  background: #FF4081;
+  color: white;
+
+}
 
 
 

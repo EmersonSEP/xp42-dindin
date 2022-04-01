@@ -115,6 +115,11 @@ section, h1, p{
     margin: 0;
 }
 
+ .botao:hover{
+    background: white;
+    color: #419488;
+    border: 1px solid #419488;
+
 @media screen and (max-width: 825px) {
     section, h1, p{
         width: 100%;
